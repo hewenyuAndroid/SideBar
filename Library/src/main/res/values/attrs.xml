@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义索引栏控件的属性 -->
+    <declare-styleable name="SideBar">
+        <!-- 索引栏的宽度 -->
+        <attr name="sideBarWidth" format="dimension|reference" />
+        <!-- 索引栏的内外的上下间距 -->
+        <attr name="sideBarMarginTop" format="dimension|reference" />
+        <attr name="sideBarMarginBottom" format="dimension|reference" />
+        <attr name="sideBarPaddingTop" format="dimension|reference" />
+        <attr name="sideBarPaddingBottom" format="dimension|reference" />
+        <!-- 索引栏的位置 -->
+        <attr name="sideBarPosition" format="enum">
+            <enum name="LEFT" value="0" />
+            <enum name="RIGHT" value="1" />
+        </attr>
+        <!-- 索引栏与左边/右边的间距 -->
+        <attr name="sideBarSpacing" format="dimension|reference" />
+        <!-- 索引栏默认的背景颜色 -->
+        <attr name="sideBarNormalColor" format="color|reference" />
+        <!-- 索引栏按压的背景颜色 -->
+        <attr name="sideBarPressColor" format="color|reference" />
+        <!-- 索引栏默认的背景色是否显示 -->
+        <attr name="showSideBarNormalColor" format="boolean" />
+        <!-- 索引栏上下两端的形状 -->
+        <attr name="sideBarCap" format="enum">
+            <enum name="NORMAL" value="0" />
+            <enum name="ROUND" value="1" />
+        </attr>
+
+        <!-- 索引栏上字符的大小 -->
+        <attr name="sideBarLetterSize" format="dimension|reference" />
+        <!-- 索引栏上字符默认的颜色 -->
+        <attr name="sideBarLetterNormalColor" format="color|reference" />
+        <!-- 索引栏上被选中字符的颜色 -->
+        <attr name="sideBarLetterSelectColor" format="color|reference" />
+        <!-- 索引栏上默认字符的宽度 -->
+        <attr name="sideBarLetterNormalWidth" format="dimension|reference" />
+        <!-- 索引栏被按压时，字符的宽度 -->
+        <attr name="sideBarLetterPressWidth" format="dimension|reference" />
+
+        <!-- 弹窗的背景颜色 -->
+        <attr name="dialogColor" format="color|reference" />
+        <!-- 弹窗宽度与控件宽度的比例 -->
+        <attr name="dialogSizePercent" format="float" />
+        <!-- 弹窗的形状 -->
+        <attr name="dialogShape" format="enum">
+            <enum name="CIRCLE" value="0" />
+            <enum name="SQUARE" value="1" />
+        </attr>
+        <!-- 弹窗为方形时的圆角 -->
+        <attr name="dialogCorner" format="dimension|reference" />
+        <!-- 弹窗字符文字的大小 -->
+        <attr name="dialogLetterSize" format="dimension|reference" />
+        <!-- 弹窗字符文字的颜色 -->
+        <attr name="dialogLetterColor" format="color|reference" />
+        <!-- 弹窗字符的宽度 -->
+        <attr name="dialogLetterWidth" format="dimension|reference" />
+        <!-- 弹窗的位置是否固定垂直居中 -->
+        <attr name="dialogIsFixed" format="boolean" />
+        <!-- 弹窗中心在控件的水平位置 -->
+        <attr name="dialogHorizontalPercent" format="float" />
+    </declare-styleable>
+
+</resources>
