@@ -3,11 +3,8 @@
 
 ### 效果图
 ![仿魅族文件索引](https://github.com/hewenyuAndroid/SideBar/blob/master/screen/7082912-8cf87c5e0f2cb964.gif)
-
 ![仿微信好友索引](https://github.com/hewenyuAndroid/SideBar/blob/master/screen/7082912-c2f161ceb8bb2d96.gif)
-
 ![索引效果](https://github.com/hewenyuAndroid/SideBar/blob/master/screen/7082912-e8306bf070ca6e2c.gif)
-
 ![左侧索引栏](https://github.com/hewenyuAndroid/SideBar/blob/master/screen/7082912-ea0889a7be6f4e3e.gif)
 
 ### 引用方式
