@@ -8,7 +8,6 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Rect;
 import android.graphics.RectF;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
@@ -225,11 +224,11 @@ public class SideBar extends View {
             "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
             , "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "#"};
 
-    public SideBar(Context context, @Nullable AttributeSet attrs) {
+    public SideBar(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public SideBar(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public SideBar(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.SideBar);

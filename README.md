@@ -10,6 +10,9 @@
 
 ![左侧索引栏](https://github.com/hewenyuAndroid/SideBar/blob/master/screen/7082912-ea0889a7be6f4e3e.gif)
 
+### 引用方式
+> compile 'com.hewenyu:SideBar:1.0'
+
 ### 使用方法
 
 ```xml
